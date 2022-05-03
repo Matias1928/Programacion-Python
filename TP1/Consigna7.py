@@ -12,4 +12,5 @@ elif edad>=34 and diner>=500 and hambr>5:
     print(f"Hola {nom} {ape}" " ¿Hoy hay asado?")
 elif (hambr >7 and diner <100 and edad<18):
     print(f"Hola {nom} {ape}" " ¿Vas a comer en lo de tus Papas")
-    
+else:
+    print("Quedate en casa")

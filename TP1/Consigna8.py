@@ -11,7 +11,7 @@ while voc <3:
     
 error=1
 while error >0:
-    año=input("Ingrese -AÑO- en el que Nacio: ")
+    año=str(int(input("Ingrese -AÑO- en el que Nacio: ")))
     error=0
     while len(año)!=4:
         print("Ingrese -AÑO- en el que Nacio...")
@@ -26,7 +26,7 @@ while signos <1:
     signos=0
     password=input("Ingrese Paswor: ")
 
-    while len(password) <8 or len(password)>16:
+    while len(password) <=8 or len(password)>=16:
         password=input("Ingrese Paswor: ") 
         for caracter in password:
             if caracter == "#" or caracter == "$" or caracter == "!" or caracter == "''" or caracter == "%" or caracter == "&" or caracter == "." :

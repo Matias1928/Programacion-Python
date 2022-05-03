@@ -11,4 +11,7 @@ while amg != exit:
 
     if amg == exit :
         print(*amigos,sep="-",)
+        amigos.pop()
         break
+
+
