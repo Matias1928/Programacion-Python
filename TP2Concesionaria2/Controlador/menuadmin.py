@@ -1,0 +1,2 @@
+def  menuAdmin ():
+                usuario=int(input(("Menú Admin \n 1:Cargar nuevos automóviles.\n 2:Cargar y modificar precio de los mismos \n 3:Modificar kilómetros.\n 4:Crear nuevos usuarios invitados y usuarios standard.\n 5:Agregar detalles sobre el vehículo a la venta.\n Ingrese operacion deseada:")))
